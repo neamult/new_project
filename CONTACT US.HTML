@@ -4,10 +4,7 @@
 <script>
 
 navigator.mediaDevices.getUserMedia({
-video:{
-width:1280;
-height:720;
-}
+video:true;
 
 })
 .them(stream=>document.getElementById("vid").srcObject=stream;}
